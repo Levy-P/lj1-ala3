@@ -9,7 +9,9 @@
     <meta name="author" content="">
     <meta name="keywords" content="Piazo's Pizza, Pizza, Italian Food, Italian Kitchen, Yummy, Restaurant">
 
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="global.css">
+
 </head>
 
 <body>

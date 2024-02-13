@@ -1,3 +1,15 @@
 * {margin:0;padding:0;}
 [flex],body {display:flex;} [grid] {display:grid;}
 main {flex:1;}
+
+:root {
+    --p:  #701117; 
+    --a1: #aa383f;
+    --a2: #fca492;
+    --b1: #f3b628;
+    --b2: #f2d48e;
+    --c1: #538638;
+    --c2: #a9dd8d;
+    
+    font-family: Dosis, sans-serif;
+}
