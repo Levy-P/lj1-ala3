@@ -14,7 +14,9 @@
 
 <body>
 <?php include 'libs/components/header.php' ?>
-<main>
+    <main id="home">
+
+    </main>
 <?php include 'libs/components/footer.php' ?>
 </body>
 </html>
