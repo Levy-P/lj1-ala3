@@ -72,7 +72,7 @@
                 <section flex>
                     <span class="categorie" flex>
                         <img src="assets/icons/leaf.png" alt="Star">
-                        <h2>Vegan Dishses</h2>
+                        <h2>Vegan Dishes</h2>
                     </span>
                     <section class="c blok" flex>
                         <?php gerecht(2)?>
@@ -128,6 +128,9 @@
             <section flex class="c blok">
                 <?php gerecht(3)?>
             </section>
+            <a href="drinks.php">
+            <button class="button"><span>Meer drank opties..</span>
+            </a>
         </section>
 
         <section tab="all" hidden>
