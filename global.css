@@ -82,6 +82,8 @@ header > #logo {
 #booking a#nav-booking, #reservation a#nav-booking,
 #gallery a#nav-gallery,
 #privacy a#nav-privacy,
+#reviews a#nav-reviews,
+#deals a#nav-deals,
 #aboutus a#nav-aboutus {font-weight: bolder;}
 header > #nav {
     margin-right: 20%;
