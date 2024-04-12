@@ -1173,4 +1173,24 @@ footer > p {
     font-family: Arial, sans-serif;
 }
 
-/*Het liefst maken we de hele CSS opnieuw na opdracht 9*/
+#deals > main > section {
+    min-width: 70vw;
+    width: 1000px;
+    max-width: 90vw;
+    height: 410px;
+    min-height: 40vh;
+    background-color: #000;
+    margin: 20px auto 20px;
+    grid-template-areas: 'A A A A A A A B B B B B'
+                         'C C C C D D D D D D D D' ;
+}
+
+#deals .arrangment:nth-child(1) {grid-area: A;}
+#deals .arrangment:nth-child(2) {grid-area: B;}
+#deals .arrangment:nth-child(3) {grid-area: C;}
+#deals .arrangment:nth-child(4) {grid-area: D;}
+
+#deals .arrangment:nth-child(1) {background-color: red;}
+#deals .arrangment:nth-child(2) {background-color: lime;}
+#deals .arrangment:nth-child(3) {background-color: yellow;}
+#deals .arrangment:nth-child(4) {background-color: blue;}
