@@ -1,8 +1,3 @@
-<!--
-// TODO - Verander de link EN id van Jobs naar de vacatures pagina (engels)
-// ? Drinks pagina staat op our menu. Als je klaar ben, verwijder deze comments.
--->
-
 <header flex>
     <script src="libs/dropdown.js" type="text/javascript" defer></script>
     <img src="assets/icons/hamburger.png" alt="Dropdown Menu" class="dropdown" onclick="toggleNav();">
@@ -19,7 +14,7 @@
         <p>•</p>
         <a href="gallery.php" id="nav-gallery" flex><p>Gallery</p></a>
         <p>•</p>
-        <a href="#" id="nav-" flex><p>Work at</p></a>
+        <a href="vacature.php" id="nav-vacature" flex><p>Work at</p></a>
         <p>•</p>
         <a href="aboutus.php" id="nav-aboutus" flex><p>About Us</p></a>
     </article>

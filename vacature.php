@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <title>Vacatures - Piazo's Pizza</title>
     <meta charset="UTF-8">

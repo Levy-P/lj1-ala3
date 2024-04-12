@@ -129,7 +129,7 @@
                 <?php gerecht(3)?>
             </section>
             <a href="drinks.php" id="drinks-button">
-            <button class="button"><span>Meer drank opties..</span></button>
+            <button class="button"><span>More drink options..</span></button>
             </a>
         </section>
 
