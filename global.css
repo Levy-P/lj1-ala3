@@ -1260,3 +1260,64 @@ footer > p {
     grid-template-rows: 1fr 0fr;
 }
 #deals .arrangment:nth-child(4) {background-image: url(assets/deals/3course.webp);}
+
+#reviews > main [flex]:not(.container,.stars) {
+    flex-direction: column;
+}
+
+#reviews > main > h1 {
+    margin: 10px auto 25px;
+    text-align: center;
+}
+
+#reviews .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+#reviews .container > section {
+    gap:25px;
+}
+
+#reviews .review {
+    color: #fff;
+    gap:10px;
+    box-shadow: #00000088 0 0 5px 1px;
+    padding: 10px;
+    width: 400px;
+    background-color: var(--p);
+}
+
+#reviews .review > h2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#reviews .review > .stars {
+    height: 80px;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 5px var(--a1);
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+#reviews .review > .stars > img {
+    height: 100%;
+}
+
+#reviews .review > article {  
+    padding: 5px;
+    text-align: left;
+    background-color: #fff;
+    color: #000;
+    border: 5px dashed var(--a1);
+    font-size: 1.25rem;
+}
+
+#reviews .review > article > h1 {
+    font-size: 1.5rem;
+}
