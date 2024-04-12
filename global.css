@@ -86,7 +86,7 @@ header > #logo {
 #deals a#nav-deals,
 #aboutus a#nav-aboutus {font-weight: bolder;}
 header > #nav {
-    margin-right: 20%;
+    margin-right: 5%;
     height: inherit;
     flex-wrap: wrap;
     justify-content: space-between; align-items: center;
@@ -1257,12 +1257,32 @@ footer > p {
 #deals .arrangment:nth-child(1) {background-image: url(assets/deals/family.jpg);}
 #deals .arrangment:nth-child(2) {background-image: url(assets/deals/kids.jpg);}
 #deals .arrangment:nth-child(3) {background-image: url(assets/deals/shared-dining.jpg);
-    grid-template-rows: 1fr 0fr;
+    grid-template-rows: 1fr 0fr; /*magie*/
 }
 #deals .arrangment:nth-child(4) {background-image: url(assets/deals/3course.webp);}
 
-#reviews > main [flex]:not(.container,.stars) {
-    flex-direction: column;
+@media screen and (max-width:768px) {
+    #deals > main * {
+        border: none;
+    }
+
+    #deals > main > section {
+        min-width: 100vw;
+        background-color: var(--p);
+        grid-template-areas: 'A'
+                             'B'
+                             'C'
+                             'D';
+        margin: 0;
+        gap:25px;
+        height: min-content;
+    }
+
+    #deals .arrangment {
+        height: 300px;
+        width: 100%;
+        overflow: visible;
+    }
 }
 
 #reviews > main > h1 {
@@ -1271,17 +1291,24 @@ footer > p {
 }
 
 #reviews .container {
-    flex-wrap: wrap;
-    justify-content: center;
+    width: fit-content;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: flex-start;
     gap: 25px;
     margin-bottom: 25px;
 }
 
 #reviews .container > section {
+    flex:1;
     gap:25px;
+    min-width: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #reviews .review {
+    flex-direction: column;
     color: #fff;
     gap:10px;
     box-shadow: #00000088 0 0 5px 1px;
@@ -1320,4 +1347,28 @@ footer > p {
 
 #reviews .review > article > h1 {
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    #reviews .container {
+        flex-wrap: wrap;
+        width: fit-content;
+        justify-content: center;
+    }
+
+    #reviews .container > section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #reviews .review {
+        width: 100vw;
+    }
+
+    #reviews .review > .stars {
+        height: 60px;
+    }
 }
