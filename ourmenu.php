@@ -128,8 +128,8 @@
             <section flex class="c blok">
                 <?php gerecht(3)?>
             </section>
-            <a href="drinks.php">
-            <button class="button"><span>Meer drank opties..</span>
+            <a href="drinks.php" id="drinks-button">
+            <button class="button"><span>Meer drank opties..</span></button>
             </a>
         </section>
 
