@@ -24,7 +24,7 @@
                     <div class="button" onclick="switchTab('pizzas', this);" tab="pizzas"><p noSelect>PIZZA'S</p></div>
                     <div class="button" onclick="switchTab('appetizers', this);" tab="appetizers"><p noSelect>APPETIZERS</p></div>
                     <div class="button" onclick="switchTab('desserts', this);" tab="desserts"><p noSelect>DESSERTS</p></div>
-                    <div class="button" href="#" tab="drinks"><p noSelect>DRINKS</p></div>
+                    <div class="button" onclick="switchTab('drinks', this);" tab="drinks"><p noSelect>DRINKS</p></div>
                     <div class="button" onclick="switchTab('all', this);" tab="all"><p noSelect>ALL</p></div>
                 </article>
                 <span flex noSelect id="filter-span">
@@ -72,7 +72,7 @@
                 <section flex>
                     <span class="categorie" flex>
                         <img src="assets/icons/leaf.png" alt="Star">
-                        <h2>Vegan Dishses</h2>
+                        <h2>Vegan Dishes</h2>
                     </span>
                     <section class="c blok" flex>
                         <?php gerecht(2)?>
@@ -118,6 +118,19 @@
             <section flex class="a blok">
                 <?php gerecht(3)?>
             </section>
+        </section>
+
+        <section tab="drinks" hidden>
+            <h1>DRINKS</h1>
+            <section flex class="c blok">
+                <?php gerecht(3)?>
+            </section>
+            <section flex class="c blok">
+                <?php gerecht(3)?>
+            </section>
+            <a href="drinks.php">
+            <button class="button"><span>Meer drank opties..</span>
+            </a>
         </section>
 
         <section tab="all" hidden>

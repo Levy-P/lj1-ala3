@@ -21,25 +21,21 @@
             <article class="blok" grid>
             <h1><b><i>Lorem Ipsum</b></i></h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ipsa. Consequuntur laudantium dolore rem id numquam maiores unde ipsa corrupti quas non. Harum culpa repudiandae neque consectetur minus eveniet laudantium!</p>
-            <button class="button"><span>lorem </span></button>
             </article>
 
             <article class="blok" grid>
                 <h1><b><i>Lorem Ipsum</b></i></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ipsa. Consequuntur laudantium dolore rem id numquam maiores unde ipsa corrupti quas non. Harum culpa repudiandae neque consectetur minus eveniet laudantium!</p>
-                <button class="button"><span>lorem </span></button>
             </article>
 
             <article class="blok" grid>
                 <h1><b><i>Lorem Ipsum</b></i></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ipsa. Consequuntur laudantium dolore rem id numquam maiores unde ipsa corrupti quas non. Harum culpa repudiandae neque consectetur minus eveniet laudantium!</p>
-                <button class="button"><span>lorem </span></button>
             </article>
 
             <article class="blok" grid>
                 <h1><b><i>Lorem Ipsum</b></i></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ipsa. Consequuntur laudantium dolore rem id numquam maiores unde ipsa corrupti quas non. Harum culpa repudiandae neque consectetur minus eveniet laudantium!</p>
-                <button class="button"><span>lorem </span></button>
             </article>
         </section>
 
