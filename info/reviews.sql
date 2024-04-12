@@ -5,7 +5,7 @@ USE main;
 CREATE TABLE IF NOT EXISTS reviews(
     name    VARCHAR(50),
     rating  INTEGER  NOT NULL,
-    header  VARCHAR(100) NOT NULL,
+    header  VARCHAR(100),
     comment VARCHAR(1000) NOT NULL
 );
 
