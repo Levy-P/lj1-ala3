@@ -1182,7 +1182,7 @@ footer > p {
     max-width: 90vw;
     height: 410px;
     min-height: 40vh;
-    background-color: #000;
+    background-color: #390505;
     margin: 20px auto 20px;
     grid-template-areas: 'A A A A A A A B B B B B'
                          'C C C C D D D D D D D D' ;
@@ -1200,8 +1200,23 @@ footer > p {
 #deals .arrangment {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: 100vw;
+    background-position-y: center;
+    background-size:cover;
     color: #fff;
     overflow: hidden;
+    transition: background-size 0.2s;
+    animation: 1s ease-out slide-left forwards;
+}
+
+@media screen and (min-width: 769px) {
+    #deals .arrangment:hover {
+        background-size: 110%;
+    }
+
+    #deals .arrangment {
+        background-size: 100%;
+    }
 }
 
 #deals .arrangment > p,
@@ -1255,11 +1270,24 @@ footer > p {
 }
 
 #deals .arrangment:nth-child(1) {background-image: url(assets/deals/family.jpg);}
-#deals .arrangment:nth-child(2) {background-image: url(assets/deals/kids.jpg);}
+#deals .arrangment:nth-child(2) {background-image: url(assets/deals/kids.jpg);
+    animation-delay: 0.3s;
+}
 #deals .arrangment:nth-child(3) {background-image: url(assets/deals/shared-dining.jpg);
     grid-template-rows: 1fr 0fr; /*magie*/
+    animation-delay: 0.6s;
 }
-#deals .arrangment:nth-child(4) {background-image: url(assets/deals/3course.webp);}
+#deals .arrangment:nth-child(4) {background-image: url(assets/deals/3course.webp);
+    animation-delay: 0.9s;
+}
+@keyframes slide-left {
+    0% {
+        background-position-x: 100vw;
+    }
+    100% {
+        background-position-x: center;
+    }
+}
 
 @media screen and (max-width:768px) {
     #deals > main * {
@@ -1308,6 +1336,7 @@ footer > p {
 }
 
 #reviews .review {
+    opacity: 0;
     flex-direction: column;
     color: #fff;
     gap:10px;
@@ -1315,6 +1344,8 @@ footer > p {
     padding: 10px;
     width: 400px;
     background-color: var(--p);
+
+    animation: 1s ease-out appear forwards;
 }
 
 #reviews .review > h2 {
@@ -1370,5 +1401,18 @@ footer > p {
 
     #reviews .review > .stars {
         height: 60px;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    60% {
+        transform: unset;
+    }
+    100% {
+        opacity: 1;
     }
 }

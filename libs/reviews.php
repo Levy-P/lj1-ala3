@@ -25,8 +25,10 @@ function makeReview($review) {
     $header = $review->header;
     $comment = $review->comment;
 
+    $animationDelay = rand(0,75);
+
     echo "
-    <article class=\"review\" flex>
+    <article class=\"review\" style=\"animation-delay: 0.{$animationDelay}s\" flex>
         <h2>$name</h2>
         <span class=\"stars\" noSelect flex>";
     for($i = 1; $i < 6; $i++) {
