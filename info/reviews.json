@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Muriel Hayes",
+        "rating":4,
+        "header":"Busy place, great food with plenty of choices.",
+        "comment":"Good portions and tasty. Reasonably priced. Staff were attentive and polite."
+    },
+    {
+        "name":"Wanda Cross",
+        "rating":3,
+        "header":"Different, but not great for this price.",
+        "comment":"The pizza is interesting in this place, but it is not great, and for the same price you could get a better meal elsewhere. The restaurant is small and seating is a bit cramped. Service is friendly."
+    },
+    {
+        "name":"Joseph Burke",
+        "rating":5,
+        "header":"The best pizza in Leiden.",
+        "comment":"I am a pizza addicted person and I have to say that the pizza here was marvelous. Incredible taste, the best I have ever eaten in my life."
+    },
+    {
+        "name":"Tyler Noble",
+        "rating":4,
+        "header":"Familie visit.",
+        "comment":"Good place for a spontanius visit with family. Service is quick, nothing fancy but friendly and nice. Food is good, simple and great in choise. Everything is fresh made in kitchen wich is open to see for clients."
+    },
+    {
+        "name":"Alfie Davison",
+        "rating":5,
+        "header":"Great spot!",
+        "comment":"Lovely food and service. Sun on the terrace, not crowded or busy. Great spot to have lunch with family or friends."
+    },
+    {
+        "name":"Jillian Carpenter",
+        "rating":3,
+        "header":"Large food portions cheap prices quality ok.",
+        "comment":"This is an average italian selling huge portions of every dish, side salads do not exist be warned portions are large too large in my opinion. The food whilst not bad was not the best italian ever, but good value nonetheless."
+    },
+    {
+        "name":"Anthony Hoffman",
+        "rating":2,
+        "header":"Odd",
+        "comment":"Interested to try here due to the rave reviews we had seen, however we found the entire experience a little odd. The place was empty and the service wasn't speedy and definitely not enthusiastic. The food was ok, but not good enough to make up for the service. Certainly didn't live up to the hype for us."
+    },
+    {
+        "name":"Kay Jarvis",
+        "rating":5,
+        "header":"Definitely will be back.",
+        "comment":"If you love pizza that's the right place to eat!! Everything we tried was very delicious, fresh and good filled. Food was made and served very quickly and all the staff was very kind."
+    },
+    {
+        "name":"Hadden Steele",
+        "rating":3,
+        "header":"Not what we expected.",
+        "comment":"We came here with a lot of expectations. We had a lot of good comments about this place. The ambiance is poor despite it is a small place. The service is right with the right presence, not more not less."
+    }
+]
