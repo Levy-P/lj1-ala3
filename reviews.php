@@ -16,7 +16,6 @@
 <body id="reviews">
 <?php include 'libs/components/header.php' ?>
     <main>
-        <p><?php print_r($reviews);?></p>
         <h1>Read Piazo's Pizza's Reviews</h1>
         <section flex class="container">
             <?php
