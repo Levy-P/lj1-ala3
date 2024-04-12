@@ -84,6 +84,7 @@ header > #logo {
 #privacy a#nav-privacy,
 #reviews a#nav-reviews,
 #deals a#nav-deals,
+/*drinks en vacature page's nav. In header.php staan instructies*/
 #aboutus a#nav-aboutus {font-weight: bolder;}
 header > #nav {
     margin-right: 5%;

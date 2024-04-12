@@ -19,7 +19,7 @@
         <p>•</p>
         <a href="gallery.php" id="nav-gallery" flex><p>Gallery</p></a>
         <p>•</p>
-        <a href="#" id="nav-ID" flex><p>Jobs</p></a>
+        <a href="#" id="nav-" flex><p>Work at</p></a>
         <p>•</p>
         <a href="aboutus.php" id="nav-aboutus" flex><p>About Us</p></a>
     </article>
