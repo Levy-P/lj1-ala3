@@ -1193,7 +1193,70 @@ footer > p {
 #deals .arrangment:nth-child(3) {grid-area: C;}
 #deals .arrangment:nth-child(4) {grid-area: D;}
 
-#deals .arrangment:nth-child(1) {background-color: red;}
-#deals .arrangment:nth-child(2) {background-color: lime;}
-#deals .arrangment:nth-child(3) {background-color: yellow;}
-#deals .arrangment:nth-child(4) {background-color: blue;}
+#deals main > section[grid], #deals .arrangment {
+    border: var(--p) 2px solid;
+}
+
+#deals .arrangment {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    overflow: hidden;
+}
+
+#deals .arrangment > p,
+#deals .arrangment > span {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+}
+
+#deals .arrangment > p {
+    font-size: 1.25rem;
+    box-shadow: #000 0px 0px 10px 2px;
+}
+
+#deals .arrangment > span {
+    font-size: 1.4rem;
+    background-color: var(--t-p);
+}
+
+#deals .arrangment:nth-child(1) > p {
+    background-color: var(--b1);
+    margin: auto 0 0 auto;
+}
+
+#deals .arrangment:nth-child(2) span {
+    margin: auto auto 0 0;
+}
+
+#deals .arrangment:nth-child(2) > p {
+    background-color: var(--c1);
+}
+
+#deals .arrangment:nth-child(3) > p {
+    background-color: var(--c1);
+    margin: auto;
+}
+
+#deals .arrangment:nth-child(3) > span {
+    width: 100%;
+    text-align: center;
+    margin: auto auto 0
+}
+
+#deals .arrangment:nth-child(4) > span {
+    margin-left: auto;
+}
+
+#deals .arrangment:nth-child(4) > p {
+    margin-top: auto;
+    background-color: var(--a1);
+}
+
+#deals .arrangment:nth-child(1) {background-image: url(assets/deals/family.jpg);}
+#deals .arrangment:nth-child(2) {background-image: url(assets/deals/kids.jpg);}
+#deals .arrangment:nth-child(3) {background-image: url(assets/deals/shared-dining.jpg);
+    grid-template-rows: 1fr 0fr;
+}
+#deals .arrangment:nth-child(4) {background-image: url(assets/deals/3course.webp);}
