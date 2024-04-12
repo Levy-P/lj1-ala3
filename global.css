@@ -77,15 +77,16 @@ header > #logo {
     background-repeat: no-repeat;
 }
 
-#home    #nav > a:nth-child(1),
-#ourmenu #nav > a:nth-child(3),
-#booking #nav > a:nth-child(5), #reservation #nav > a:nth-child(5),
-#gallery #nav > a:nth-child(7),
-#privacy #nav > a:nth-child(9),
-#aboutus #nav > a:nth-child(9) {font-weight: bolder;}
+#home    a#nav-home,
+#ourmenu a#nav-ourmenu, #drinks a#nav-ourmenu,
+#booking a#nav-booking, #reservation a#nav-booking,
+#gallery a#nav-gallery,
+#privacy a#nav-privacy,
+#aboutus a#nav-aboutus {font-weight: bolder;}
 header > #nav {
     margin-right: 20%;
     height: inherit;
+    flex-wrap: wrap;
     justify-content: space-between; align-items: center;
     gap: 20px;
     min-width: max-content;
